@@ -37,8 +37,16 @@ public class Main {
         /* Input   */
 
         Scanner shuogascanner = new Scanner(System.in);
-        String stringinput = shuogascanner.next();
+
+        int number = shuogascanner.nextInt();
+        System.out.println("int only " + number);
+
+        shuogascanner.nextLine();
+        String stringinput = shuogascanner.nextLine();
         System.out.println(stringinput + " was typed");
+
+
+
 
 
     }
