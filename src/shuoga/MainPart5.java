@@ -46,6 +46,11 @@ public class MainPart5 {
          */
 
 
+        int point = 60;
+        int pointtopass = 67;
+        boolean istestpassed = point >= pointtopass;
+        System.out.println("has passed the test? : " + istestpassed);
+
 
 
 
