@@ -1,5 +1,7 @@
 package shuoga;
 
+import java.util.Scanner;
+
 public class MainPart5 {
     public static void main(String[] args) {
             /*
@@ -48,8 +50,47 @@ public class MainPart5 {
 
         int point = 60;
         int pointtopass = 67;
-        boolean istestpassed = point >= pointtopass;
-        System.out.println("has passed the test? : " + istestpassed);
+        boolean haspassedtest = point >= pointtopass;
+        System.out.println("has passed the test? : " + haspassedtest);
+
+        //logic     and or not
+        // same as turing complete
+
+        int point2 = 68;
+        int pointtopass2 = 67;
+        boolean haspassedtest2 = point2 >= pointtopass2;
+        System.out.println("has passed the test? : " + haspassedtest2);
+
+        // and - &&
+
+        boolean hasbothtestpassed = haspassedtest2 && haspassedtest;
+        System.out.println("hasbothtestpassed : " + hasbothtestpassed);
+
+        //let's make some question
+
+        Scanner scanner= new Scanner(System.in);  //Scannerって複数変数用意する必要ないのか？
+
+        //age in int
+        System.out.println("What's your age?");
+        int age = scanner.nextInt();
+
+        //beer in boolean
+        System.out.println("answer true or false. Do you like beer?");
+        boolean likebeer = scanner.nextBoolean();
+
+        //comparison
+        int agefordrink = 20;
+        boolean canyoudrink = agefordrink <= age;
+
+        //having fun drinking at legal age
+        boolean fundrink = canyoudrink && likebeer;
+
+        System.out.println("have fun drinking! : " + fundrink);
+
+
+
+
+
 
 
 
