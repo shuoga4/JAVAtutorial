@@ -75,17 +75,17 @@ public class MainPart5 {
         int age = scanner.nextInt();
 
         //beer in boolean
-        System.out.println("answer true or false. Do you like beer?");
-        boolean likebeer = scanner.nextBoolean();
+        System.out.println("answer true or false. Do you live in JPN?");
+        boolean liveinjapan = scanner.nextBoolean();
 
         //comparison
         int agefordrink = 20;
-        boolean canyoudrink = agefordrink <= age;
+        int agefordrinkabroad = 18;
+        boolean canyoudrink = liveinjapan && agefordrink <= age || !liveinjapan && agefordrinkabroad <= age;
 
         //having fun drinking at legal age
-        boolean fundrink = canyoudrink && likebeer;
 
-        System.out.println("have fun drinking! : " + fundrink);
+        System.out.println("have fun drinking! : " + canyoudrink);
 
 
 
