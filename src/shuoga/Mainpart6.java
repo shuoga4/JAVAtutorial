@@ -1,7 +1,6 @@
 package shuoga;
 
 import java.util.Scanner;
-import java.util.concurrent.Callable;
 
 public class Mainpart6 {
     public static void main(String[] args) {
@@ -49,6 +48,19 @@ public class Mainpart6 {
             System.out.println("you are smaller");
         }
         System.out.println("the number was " + (int)random);
+
+        // Switch
+
+        System.out.println("What's your level? choose from 1 to 5");
+        int level = scanner.nextInt();
+        switch (level){
+            case 1: System.out.println("you r base level"); break;
+            case 2: System.out.println("you r 2 level"); break;
+            case 3: System.out.println("you r 3 level"); break;
+            case 4: System.out.println("you r 4 level"); break;
+            case 5: System.out.println("you r max level"); break;
+        }
+
 
 
 
