@@ -31,6 +31,7 @@ public class Mainpart6 {
         /*
         control flow (if and switch)
 
+
          */
 
         Scanner scanner = new Scanner(System.in);
@@ -44,12 +45,10 @@ public class Mainpart6 {
             System.out.println("you did it!");
         }else if (favnum > (int)random){
             System.out.println("you are bigger");
-            System.out.println("from 0 to 99, what's your favorite number?");
         }else {
             System.out.println("you are smaller");
-            System.out.println("from 0 to 99, what's your favorite number?");
         }
-
+        System.out.println("the number was " + (int)random);
 
 
 
