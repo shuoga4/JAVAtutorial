@@ -39,6 +39,19 @@ public class Mainpart9 {
             favnum = scanner.nextInt();
         }
 
+        boolean living = true;
+        int age = 21;
+        double randomage;
+        int chance_of_death;
+
+        while(living){
+            System.out.println("u r living for now");
+            randomage = Math.random() * 100;
+            chance_of_death = (int)randomage;
+            if (chance_of_death >= 50) living = false;
+            System.out.println(chance_of_death);
+        }
+
 
     }
 
