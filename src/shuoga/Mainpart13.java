@@ -1,7 +1,5 @@
 package shuoga;
 
-import java.awt.*;
-
 // https://magazine.techacademy.jp/magazine/28637
 // Regular Expression
 
