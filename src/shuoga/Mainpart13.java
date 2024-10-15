@@ -1,7 +1,7 @@
 package shuoga;
 
-// https://magazine.techacademy.jp/magazine/28637
-// Regular Expression
+
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -16,7 +16,7 @@ public class Mainpart13 {
         String reshuoga = shuoga.replaceFirst(first,firstup); // replace it
         System.out.println("My name is " + reshuoga);
 
-        
+
     }
 
 // regular Expression
