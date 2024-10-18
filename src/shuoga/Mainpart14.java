@@ -1,18 +1,33 @@
 package shuoga;
 
+import javax.swing.plaf.InsetsUIResource;
 import java.util.*;
 
 public class Mainpart14 {
     //しりとりゲーム
     public static void main(String[] args) {
-        // Set使う
+
         List<String> siritori = new ArrayList<>();
-        System.out.println("Say the first word : ");
         Scanner scanner = new Scanner(System.in);
-        String myword = scanner.next();
-        // 正規表現で次の言葉としりとりできてるか判定
-        // 正規表現で謎の文字が入ってないか確認（主に数字)
-        // 単語検索機能？
+        String yourword = null;
+        while (true) {
+
+            System.out.println("Say the word : ");
+            String myword = scanner.next();
+            siritori.add(myword);
+            if (yourword != null && myword.charAt(0) == yourword.charAt(myword.length() - 1)) {
+                System.out.println("------ ");
+            }else {
+                System.out.println("------1111 ");
+            }
+            System.out.println("Say the word : ");
+            yourword = scanner.next();
+            siritori.add(yourword);
+            if (yourword.charAt(0) == myword.charAt(myword.length() - 1)) {
+                System.out.println("---------2222");
+            }
+        }
+
 
 
     }
