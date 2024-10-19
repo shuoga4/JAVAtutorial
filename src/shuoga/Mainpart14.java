@@ -1,6 +1,5 @@
 package shuoga;
 
-import javax.swing.plaf.InsetsUIResource;
 import java.util.*;
 
 public class Mainpart14 {
@@ -15,19 +14,25 @@ public class Mainpart14 {
             System.out.println("Say the word : ");
             String myword = scanner.next();
             siritori.add(myword);
-            if (yourword != null && myword.charAt(0) == yourword.charAt(myword.length() - 1)) {
-                System.out.println("------ ");
+            if (yourword == null) {
+                System.out.println("1st time ");
+
+            }else if(myword.charAt(0) == yourword.charAt(yourword.length() - 1)) {
+                System.out.println("matched.");
             }else {
-                System.out.println("------1111 ");
+                break;
             }
             System.out.println("Say the word : ");
             yourword = scanner.next();
             siritori.add(yourword);
             if (yourword.charAt(0) == myword.charAt(myword.length() - 1)) {
-                System.out.println("---------2222");
+                System.out.println("matched.");
+            }else {
+                break;
             }
-        }
 
+        }
+        System.out.println("lose");
 
 
     }
