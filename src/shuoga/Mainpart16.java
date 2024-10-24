@@ -23,10 +23,11 @@ public class Mainpart16 {
             for (int i = 0; i < num; i++){
                 temp3 = temp + temp2;// F(n) = F(n-1) + F(n-2)
                 // すべてのnに+1する
+                System.out.println(temp3);
                 temp2 = temp;
                 temp = temp3;
             }
         }
-        System.out.println(temp3);
+
     }
 }
