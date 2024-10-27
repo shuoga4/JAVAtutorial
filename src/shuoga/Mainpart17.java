@@ -2,6 +2,17 @@ package shuoga;
 
 import java.util.Scanner;
 
+class LogicPart{
+    private double A,B;
+    private int operation;
+    LogicPart(double A, double B,int operation){
+        this.A = A;
+        this.B = B;
+        this.operation = operation;
+    }
+
+}
+
 public class Mainpart17 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -11,18 +22,9 @@ public class Mainpart17 {
         float variable_A = scanner.nextFloat();
         System.out.println("type number B");
         float variable_B = scanner.nextFloat();
-        float sum = 0;
 
-        switch (operation){
-            case 1:sum = variable_A + variable_B; break;
-            case 2:sum = variable_A - variable_B; break;
-            case 3:sum = variable_A * variable_B; break;
-            case 4:sum = variable_A / variable_B; break;
-        }
-        System.out.println(sum);
-    }
-    public static int calc (){
+        // logic
 
-        return 0;
+        System.out.println();
     }
 }
