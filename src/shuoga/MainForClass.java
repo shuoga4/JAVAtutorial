@@ -61,7 +61,7 @@ class Person {
 
 
 public class MainForClass {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Person kate = new Person("Kate", "Jones", 27);
         Person john = new Person("John", "Christopher", "Smith", 65);
 
@@ -75,12 +75,12 @@ public class MainForClass {
 
 
     public static void printData(Person person) {
-        System.out.println("name : " + person.name.full + "");
-        System.out.println("age : " + person.age + "");
+        System.out.println("name : " + person.name.full );
+        System.out.println("age : " + person.age );
         System.out.println("height : " + person.health.height + "m");
         System.out.println("weight : " + person.health.weight + "kg");
 
-        System.out.println("BMI : " + person.health.bmi() + "");
+        System.out.println("BMI : " + person.health.bmi());
 
         if (person.health.isHealthy()) {
             System.out.println("-> normal\n");

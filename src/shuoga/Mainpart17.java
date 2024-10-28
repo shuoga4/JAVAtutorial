@@ -3,11 +3,11 @@ package shuoga;
 import java.util.Scanner;
 
 class Calc{
-    private final double A,B;
+    private double A,B;
     private double sum;
-    private final int operation;
+    private int operation;
 
-    Calc(double A, double B,int operation){
+    public void updateNum(double A, double B,int operation){
         this.A = A;
         this.B = B;
         this.operation = operation;
@@ -24,23 +24,30 @@ class Calc{
         }
         return sum;
     }
-
-
 }
 
 public class Mainpart17 {
     public static void main(String[] args) {
+        Calc calc = new Calc();
+
+        input(calc);
+
+        System.out.println("the answer is : " + calc.calc());
+
+    }
+
+    public static void input(Calc calc){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("1:+ , 2:- , 3:* , 4:/");
         int operation = scanner.nextInt();
+
         System.out.println("type number A");
         float variable_A = scanner.nextFloat();
+
         System.out.println("type number B");
         float variable_B = scanner.nextFloat();
 
-        Calc calc = new Calc(variable_A,variable_B, operation);
-        System.out.println("the answer is : " + calc.calc());
-
+        calc.updateNum(variable_A,variable_B,operation);
     }
 }
