@@ -3,40 +3,24 @@ package shuoga;
 import java.util.Scanner;
 
 class Calc{
-    private double A,B;
     private double sum;
-    private int operation;
 
-    public void updateNum(double A, double B,int operation){
-        this.A = A;
-        this.B = B;
-        this.operation = operation;
-    }
-    public double calc (){
-        switch (operation){
-            case 1: sum = A + B;break;
-            case 2: sum = A - B;break;
-            case 3: sum = A * B;break;
+    public double calc (Data data){
+        switch (data.operation){
+            case 1: sum = data.A + data.B;break;
+            case 2: sum = data.A - data.B;break;
+            case 3: sum = data.A * data.B;break;
             case 4:
-                if (B == 0)sum = 0;
-                else sum = A / B;
+                if (data.B == 0)sum = 0;
+                else sum = data.A / data.B;
                 break;
         }
         return sum;
     }
 }
 
-public class Mainpart17 {
-    public static void main(String[] args) {
-        Calc calc = new Calc();
-
-        input(calc);
-
-        System.out.println("the answer is : " + calc.calc());
-
-    }
-
-    public static void input(Calc calc){
+class Input{
+    public void input(Data data){
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("1:+ , 2:- , 3:* , 4:/");
@@ -48,6 +32,29 @@ public class Mainpart17 {
         System.out.println("type number B");
         float variable_B = scanner.nextFloat();
 
-        calc.updateNum(variable_A,variable_B,operation);
+        data.data(variable_A,variable_B,operation);
+    }
+}
+
+class Data{
+    public double A,B;
+    public int operation;
+
+    public void data(double A, double B, int operation){
+        this.A = A;
+        this.B = B;
+        this.operation = operation;
+    }
+}
+
+public class Mainpart17 {
+    public static void main(String[] args) {
+        Data data = new Data();
+        Input input = new Input();
+        Calc calc = new Calc();
+
+        input.input(data);
+        System.out.println("the answer is : " + calc.calc(data));
+
     }
 }
