@@ -33,12 +33,31 @@ class Input{
         float variable_B = scanner.nextFloat();
 
         data.data(variable_A,variable_B,operation);
+        scanner.close();
+    }
+}
+class Output{
+    public void output(Data data){
+        Scanner scanner = new Scanner(System.in);
+        Calc calc = new Calc();
+
+        System.out.println("the answer is : " + calc.calc(data));
+
+
+        System.out.println("do you wanna continue? y/n");
+        String continues = scanner.next();
+
+        if (continues.equals("y"));
+        else data.loop = false;
+
+        scanner.close();
     }
 }
 
 class Data{
     public double A,B;
     public int operation;
+    public boolean loop = true;
 
     public void data(double A, double B, int operation){
         this.A = A;
@@ -49,12 +68,16 @@ class Data{
 
 public class Mainpart17 {
     public static void main(String[] args) {
-        Data data = new Data();
+
         Input input = new Input();
-        Calc calc = new Calc();
+        Output output = new Output();
+        Data data = new Data();
 
-        input.input(data);
-        System.out.println("the answer is : " + calc.calc(data));
+        while (data.loop) {
 
+            input.input(data);
+            output.output(data);
+
+        }
     }
 }
