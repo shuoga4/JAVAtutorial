@@ -3,7 +3,7 @@ package shuoga2;
 class Human{
     private String name = "noname";
     private int health = 50;
-    private int atk = 10;
+    protected int atk = 10;
 
     public String getName(){
         return this.name;
@@ -37,9 +37,24 @@ class Human{
     }
 }
 
+class Hero extends Human{
+    public void setAtk(int atk) {
+        super.setAtk(atk);
+    }
+}
+
+class Tank extends Human{
+    @Override
+    public void setHealth(int health) {
+        super.setHealth(health);
+    }
+}
+
+
+
+
 // require:
 // input class
-// data class
 // what is protected
 
 
