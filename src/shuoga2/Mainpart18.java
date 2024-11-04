@@ -3,7 +3,13 @@ package shuoga2;
 class Human{
     private String name = "noname";
     private int health = 50;
-    protected int atk = 10;
+    private int atk = 10;
+
+    public static int numberOfHuman = 0;
+
+    Human(){
+        numberOfHuman++;
+    }
 
     public String getName(){
         return this.name;
@@ -34,19 +40,6 @@ class Human{
         int hp = human.getHealth();
         hp = hp - this.atk;
         human.setHealth(hp);
-    }
-}
-
-class Hero extends Human{
-    public void setAtk(int atk) {
-        super.setAtk(atk);
-    }
-}
-
-class Tank extends Human{
-    @Override
-    public void setHealth(int health) {
-        super.setHealth(health);
     }
 }
 
