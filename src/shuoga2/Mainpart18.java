@@ -1,55 +1,20 @@
 package shuoga2;
 
-class Human{
-    private String name = "noname";
-    private int health = 50;
-    private int atk = 10;
-
-    public static int numberOfHuman = 0;
-
-    Human(){
-        numberOfHuman++;
-    }
-
-    public String getName(){
-        return this.name;
-    }
-
-    public int getHealth(){
-        return this.health;
-    }
-
-    public int getAtk(){
-        return this.atk;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-
-    public void setHealth(int health){
-        this.health = health;
-    }
-
-    public void setAtk(int atk){
-        this.atk = atk;
-    }
-
-
-    public void attack(Human human){
-        int hp = human.getHealth();
-        hp = hp - this.atk;
-        human.setHealth(hp);
-    }
-}
-
-
-
 
 // require:
-// input class
 // what is protected
 
 
 public class Mainpart18 {
+    public static void main(String[] args){
+
+        Human hero = new Human();
+        Human tank = new Human();
+        tank.setName("tank");
+        hero.setName("hero");
+        System.out.println("Number of Human : " + Human.numberOfHuman);
+        System.out.println("List : \n   " + hero.getName() + " : " + hero.getHealth() + "hp, atk" + hero.getAtk());
+        System.out.println("List : \n   " + tank.getName() + " : " + tank.getHealth() + "hp, atk" + tank.getAtk());
+
+    }
 }
