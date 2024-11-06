@@ -5,7 +5,7 @@ public class Human {
     private int health = 50;
     private int atk = 10;
 
-    public static int numberOfHuman = 0;
+    protected static int numberOfHuman = 0;
 
     Human() {
         numberOfHuman++;
