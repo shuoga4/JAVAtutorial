@@ -1,13 +1,18 @@
 package shuoga2;
 
+import java.util.SplittableRandom;
+
 public class Human {
-    private String name = "noname";
-    private int health = 50;
-    private int atk = 10;
+    private String name;
+    private int health;
+    private int atk;
 
     protected static int numberOfHuman = 0;
 
-    Human() {
+    Human(String name,int health,int atk) {
+        this.name = name;
+        this.health = health;
+        this.atk = atk;
         numberOfHuman++;
     }
 
