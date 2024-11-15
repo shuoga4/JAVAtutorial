@@ -5,5 +5,10 @@ public class Wizard extends Human{
         super(name, health, atk);
     }
 
+    @Override
+    public void useAbility() {
+        System.out.println("wizzzz");
+    }
+
 
 }

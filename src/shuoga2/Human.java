@@ -2,7 +2,7 @@ package shuoga2;
 
 import java.util.SplittableRandom;
 
-public class Human {
+public abstract class Human {
     private String name;
     private int health;
     private int atk;
@@ -39,6 +39,8 @@ public class Human {
     public void setAtk(int atk) {
         this.atk = atk;
     }
+
+    public abstract void useAbility();
 
 
     public void attack(Human human) {

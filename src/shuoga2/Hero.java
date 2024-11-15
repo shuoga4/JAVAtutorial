@@ -6,6 +6,11 @@ public class Hero extends Human{
         super(name, health, atk);
     }
 
+    @Override
+    public void useAbility() {
+        System.out.println("hero is here");
+    }
+
     public void burst(){
         int atk = super.getAtk();
         atk += 4;

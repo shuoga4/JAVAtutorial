@@ -5,6 +5,11 @@ public class Tank extends Human{
         super(name, health, atk);
     }
 
+    @Override
+    public void useAbility() {
+        System.out.println("tank tea");
+    }
+
     public void heal (){
         int hp = super.getHealth();
         hp += 15;
