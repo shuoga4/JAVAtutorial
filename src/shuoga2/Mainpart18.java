@@ -1,7 +1,6 @@
 package shuoga2;
 
 
-// ヒューマンが百体いたらどうする？
 
 
 import java.util.ArrayList;
@@ -14,6 +13,21 @@ public class Mainpart18 {
         Human tank = new Tank("Tank", 120, 9);
         Human monk = new Monk("Monk",50, 7);
         Human wizard = new Wizard("wizard",50,12);
+        ITankable tankable = new ITankable() {
+            @Override
+            public void haunt() {
+                System.out.println("tank in convenient way!");
+            }
+        };
+
+        Human archer = new Human("archer", 60 , 10) {
+            @Override
+            public void useAbility() {
+                System.out.println("use this pretty freaking cool bow!");
+            }
+
+
+        };
 
 
         System.out.println("Number of Human : " + Human.numberOfHuman);
@@ -39,6 +53,7 @@ public class Mainpart18 {
         humans.add(tank);
         humans.add(monk);
         humans.add(wizard);
+        humans.add(archer);
 
         for(Human human : humans){
             human.useAbility();
