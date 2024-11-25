@@ -12,5 +12,6 @@ public class Mainpart25_2 {
         chips.printStatusMessage();
         sigar.printStatusMessage();
         pc.printStatusMessage();
+        // generics
     }
 }
