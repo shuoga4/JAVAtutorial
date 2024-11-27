@@ -6,6 +6,10 @@ public class Mainpart27 {
         System.out.println(block.toString());
         System.out.println(block.hashCode());
 
+        BlockStorage<Block> blockStorage = new BlockStorage<>();
+        blockStorage.addBlock(block);
+        blockStorage.displayBlocks();
+
 
 
     }
