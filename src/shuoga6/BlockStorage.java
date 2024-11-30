@@ -22,7 +22,7 @@ public class BlockStorage <T extends Block>{
     public void displayBlocks(){
         System.out.println("Block in your storage: ");
         for(T block : blocks){
-            System.out.println("- " + block);
+            System.out.println("- " + block.toString());
         }
     }
 
