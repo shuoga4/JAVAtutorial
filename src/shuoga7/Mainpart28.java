@@ -37,6 +37,8 @@ public class Mainpart28 {
         //定義そのままじゃん、ラナブル＝実行可能、ファンクション＝関数＝xいれてyだす
 
 
+
+
     }
     public static void helloWorld(){
         System.out.println("hello");
