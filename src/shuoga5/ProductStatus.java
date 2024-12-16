@@ -1,6 +1,6 @@
 package shuoga5;
 
-public enum ProductStatus {
+enum ProductStatus {
     IN_STOCK(true),
     OUT_OF_STOCK(false),
     DISCONTINUED(false);

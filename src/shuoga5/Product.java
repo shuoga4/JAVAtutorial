@@ -1,6 +1,6 @@
 package shuoga5;
 
-public class Product {
+class Product {
     private String name;
     private int price;
     private ProductStatus status;
