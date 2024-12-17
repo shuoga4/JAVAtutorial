@@ -1,11 +1,12 @@
 package shuoga9;
 
 import java.util.*;
+import java.util.stream.*;
 
 class Product {
     private final String name;
     private final double price;
-    private final int stock;
+    private int stock;
 
     private Product(String name, double price, int stock) {
         this.name = name;
@@ -20,7 +21,37 @@ class Product {
         else return new Product(name, price, stock);
     }
 
+    public void addStock(int amount) {
+        this.stock += amount;
+    }
 
+    public void reduceStock(int amount) throws IllegalArgumentException {
+        if (this.stock < amount) throw new IllegalArgumentException("不正な引数が入力されました : 在庫数切れ");
+        else this.stock -= amount;
+    }
+}
+
+class ShoppingCart {
+    private Map<Product, Integer> cartItems;
+
+    ShoppingCart() {
+        cartItems = new HashMap<>();
+    }
+
+    public void addProduct(Product product, int quantity) {
+        product.reduceStock(quantity); // may throw exception
+        // if quantity < stock
+        cartItems.put(product, quantity);
+    }
+
+    public void removeProduct(Product product, int quantity) {
+        if (cartItems.get(product) <= quantity) cartItems.remove(product);
+        else cartItems.replace(product, cartItems.get(product) - quantity);
+    }
+
+    public void viewCart(){
+        cartItems.forEach((key, value) -> System.out.println(key + " : " + value));
+    }
 }
 
 
