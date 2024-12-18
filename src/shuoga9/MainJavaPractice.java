@@ -29,6 +29,15 @@ class Product {
         if (this.stock < amount) throw new IllegalArgumentException("不正な引数が入力されました : 在庫数切れ");
         else this.stock -= amount;
     }
+
+    public double getPrice(){
+        return price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{name = '" + name + "'}";
+    }
 }
 
 class ShoppingCart {
@@ -49,11 +58,30 @@ class ShoppingCart {
         else cartItems.replace(product, cartItems.get(product) - quantity);
     }
 
-    public void viewCart(){
-        cartItems.forEach((key, value) -> System.out.println(key + " : " + value));
+    private double totalPrices(){
+        return cartItems.entrySet().stream()
+                .reduce(0.0,(key,value) -> key.getKey().getPrice() * value); // double 掛け算！！！
+
+    }
+
+    public void viewCart() {
+        System.out.println("inside of cart is :");
+        cartItems.forEach((key, value) -> System.out.println(" -" + key + " : " + value));
+        System.out.println("Grand total : ");
     }
 }
 
 
 public class MainJavaPractice {
+    public static void main(String[] args) {
+        Product apple = Product.createInstance("apple", 50.0, 50);
+        Product orange = Product.createInstance("orange", 30.0,2);
+        ShoppingCart shoppingCart = new ShoppingCart();
+        shoppingCart.addProduct(apple, 30);
+        shoppingCart.addProduct(orange, 1);
+        shoppingCart.viewCart();
+        shoppingCart.removeProduct(apple,20);
+        shoppingCart.removeProduct(orange,2);
+        shoppingCart.viewCart();
+    }
 }
