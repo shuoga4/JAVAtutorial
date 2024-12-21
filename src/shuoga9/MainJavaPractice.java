@@ -59,15 +59,17 @@ class ShoppingCart {
     }
 
     private double totalPrices(){
-        return cartItems.entrySet().stream()
-                .reduce(0.0,(key,value) -> key.getKey().getPrice() * value); // double 掛け算！！！
-
+        Optional<Double> sum = cartItems.entrySet().stream()
+                .map(a -> a.getKey().getPrice() * a.getValue())// double 掛け算！！！
+                .reduce(Double::sum);
+        return sum.orElse(0.0);
     }
 
     public void viewCart() {
         System.out.println("inside of cart is :");
         cartItems.forEach((key, value) -> System.out.println(" -" + key + " : " + value));
-        System.out.println("Grand total : ");
+        System.out.println("-----------------------------------");
+        System.out.println("Grand total : " + totalPrices() + "\n");
     }
 }
 
