@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d15ce51-063a-4edd-a7b5-f1a6c477cc79" name="変更" comment="i learned them all!" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;shuoga4&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/shuoga4/JAVAtutorial.git&quot;,
+    &quot;accountId&quot;: &quot;4525095d-7f24-49c6-8996-9e46ab862bbb&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2mmr5YVOTm5QTZulhr8SAcY2X4e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last.edited.regexp": "aieeaei324-2344",
+    "last_opened_file_path": "C:/Minecraft Mods File/JAVA tutorial",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "アプリケーション.Main.executor": "Run",
+    "アプリケーション.MainForClass.executor": "Run",
+    "アプリケーション.MainJavaPractice.executor": "Run",
+    "アプリケーション.MainMapPractice.executor": "Run",
+    "アプリケーション.MainPart5.executor": "Run",
+    "アプリケーション.MainSupplierPractice.executor": "Run",
+    "アプリケーション.MainSupplierPractice2.executor": "Run",
+    "アプリケーション.MainSupplierPractice3.executor": "Run",
+    "アプリケーション.Mainpart10.executor": "Run",
+    "アプリケーション.Mainpart11.executor": "Run",
+    "アプリケーション.Mainpart12.executor": "Run",
+    "アプリケーション.Mainpart13$Mainpart132.executor": "Run",
+    "アプリケーション.Mainpart13.executor": "Run",
+    "アプリケーション.Mainpart14.executor": "Run",
+    "アプリケーション.Mainpart15.executor": "Run",
+    "アプリケーション.Mainpart16.executor": "Run",
+    "アプリケーション.Mainpart17.executor": "Run",
+    "アプリケーション.Mainpart18.executor": "Run",
+    "アプリケーション.Mainpart24.executor": "Run",
+    "アプリケーション.Mainpart25_2.executor": "Run",
+    "アプリケーション.Mainpart26.executor": "Run",
+    "アプリケーション.Mainpart27.executor": "Run",
+    "アプリケーション.Mainpart28.executor": "Run",
+    "アプリケーション.Mainpart6.executor": "Run",
+    "アプリケーション.Mainpart9$Mainpart902.executor": "Run",
+    "アプリケーション.Mainpart9.executor": "Run",
+    "アプリケーション.Mainpart902.executor": "Run"
+  }
+}]]></component>
+  <component name="RunManager" selected="アプリケーション.MainSupplierPractice3">
+    <configuration name="MainJavaPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shuoga9.MainJavaPractice" />
+      <module name="JAVA tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shuoga9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMapPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shuoga8.MainMapPractice" />
+      <module name="JAVA tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shuoga8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSupplierPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shuoga10.MainSupplierPractice" />
+      <module name="JAVA tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shuoga10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSupplierPractice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shuoga11.MainSupplierPractice2" />
+      <module name="JAVA tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shuoga11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainSupplierPractice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shuoga12.MainSupplierPractice3" />
+      <module name="JAVA tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shuoga12.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="アプリケーション.MainSupplierPractice3" />
+        <item itemvalue="アプリケーション.MainSupplierPractice2" />
+        <item itemvalue="アプリケーション.MainSupplierPractice" />
+        <item itemvalue="アプリケーション.MainJavaPractice" />
+        <item itemvalue="アプリケーション.MainMapPractice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="6d15ce51-063a-4edd-a7b5-f1a6c477cc79" name="変更" comment="" />
+      <created>1727692417575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727692417575</updated>
+    </task>
+    <task id="LOCAL-00018" summary="it took so long">
+      <option name="closed" value="true" />
+      <created>1728789611665</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728789611665</updated>
+    </task>
+    <task id="LOCAL-00019" summary="it took so long">
+      <option name="closed" value="true" />
+      <created>1728789631048</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728789631048</updated>
+    </task>
+    <task id="LOCAL-00020" summary="split can only split if there is regular expression">
+      <option name="closed" value="true" />
+      <created>1728813982599</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728813982599</updated>
+    </task>
+    <task id="LOCAL-00021" summary="more regular expression">
+      <option name="closed" value="true" />
+      <created>1728871937662</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1728871937662</updated>
+    </task>
+    <task id="LOCAL-00022" summary="more regular expression">
+      <option name="closed" value="true" />
+      <created>1728990718244</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728990718244</updated>
+    </task>
+    <task id="LOCAL-00023" summary="methods learned">
+      <option name="closed" value="true" />
+      <created>1728992700047</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728992700047</updated>
+    </task>
+    <task id="LOCAL-00024" summary="siritori is under construction">
+      <option name="closed" value="true" />
+      <created>1729075541546</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1729075541546</updated>
+    </task>
+    <task id="LOCAL-00025" summary="siritori is not under construction">
+      <option name="closed" value="true" />
+      <created>1729161661660</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1729161661660</updated>
+    </task>
+    <task id="LOCAL-00026" summary="siritori is actually under construction">
+      <option name="closed" value="true" />
+      <created>1729251727196</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1729251727196</updated>
+    </task>
+    <task id="LOCAL-00027" summary="siritori is over,but need more logic, or &quot;shouldnt but i can&quot;">
+      <option name="closed" value="true" />
+      <created>1729335541170</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1729335541170</updated>
+    </task>
+    <task id="LOCAL-00028" summary="more regular expression">
+      <option name="closed" value="true" />
+      <created>1729419775691</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729419775691</updated>
+    </task>
+    <task id="LOCAL-00029" summary="more regular expression">
+      <option name="closed" value="true" />
+      <created>1729480917531</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729480917531</updated>
+    </task>
+    <task id="LOCAL-00030" summary="fibonacci number gen">
+      <option name="closed" value="true" />
+      <created>1729594090939</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1729594090939</updated>
+    </task>
+    <task id="LOCAL-00031" summary="method and class">
+      <option name="closed" value="true" />
+      <created>1729765509597</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1729765509597</updated>
+    </task>
+    <task id="LOCAL-00032" summary="im learning">
+      <option name="closed" value="true" />
+      <created>1729999143425</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1729999143425</updated>
+    </task>
+    <task id="LOCAL-00033" summary="class calling">
+      <option name="closed" value="true" />
+      <created>1730028544597</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730028544597</updated>
+    </task>
+    <task id="LOCAL-00034" summary="class earned">
+      <option name="closed" value="true" />
+      <created>1730112406858</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1730112406858</updated>
+    </task>
+    <task id="LOCAL-00035" summary="class earned again">
+      <option name="closed" value="true" />
+      <created>1730292763613</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1730292763613</updated>
+    </task>
+    <task id="LOCAL-00036" summary=" looks cleaner">
+      <option name="closed" value="true" />
+      <created>1730465912936</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1730465912936</updated>
+    </task>
+    <task id="LOCAL-00037" summary="public private and what is protected?">
+      <option name="closed" value="true" />
+      <created>1730604848939</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1730604848939</updated>
+    </task>
+    <task id="LOCAL-00038" summary="what is protected?&#10;my minds blowing">
+      <option name="closed" value="true" />
+      <created>1730628495385</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1730628495385</updated>
+    </task>
+    <task id="LOCAL-00039" summary="what is protected?&#10;my minds blowing">
+      <option name="closed" value="true" />
+      <created>1730711273971</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1730711273971</updated>
+    </task>
+    <task id="LOCAL-00040" summary="hero?">
+      <option name="closed" value="true" />
+      <created>1730843959601</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1730843959601</updated>
+    </task>
+    <task id="LOCAL-00041" summary="this gonna be hard">
+      <option name="closed" value="true" />
+      <created>1730887068174</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1730887068174</updated>
+    </task>
+    <task id="LOCAL-00042" summary="what if there is 100 hero?">
+      <option name="closed" value="true" />
+      <created>1731411618582</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1731411618582</updated>
+    </task>
+    <task id="LOCAL-00043" summary="interface">
+      <option name="closed" value="true" />
+      <created>1731712756874</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1731712756874</updated>
+    </task>
+    <task id="LOCAL-00044" summary="interface 2">
+      <option name="closed" value="true" />
+      <created>1731812426223</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1731812426223</updated>
+    </task>
+    <task id="LOCAL-00045" summary="interface 3">
+      <option name="closed" value="true" />
+      <created>1731819135062</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1731819135062</updated>
+    </task>
+    <task id="LOCAL-00046" summary="anonymous!">
+      <option name="closed" value="true" />
+      <created>1731929836270</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929836270</updated>
+    </task>
+    <task id="LOCAL-00047" summary="ez">
+      <option name="closed" value="true" />
+      <created>1732010525326</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1732010525326</updated>
+    </task>
+    <task id="LOCAL-00048" summary="enum">
+      <option name="closed" value="true" />
+      <created>1732100180439</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1732100180439</updated>
+    </task>
+    <task id="LOCAL-00049" summary="enum!">
+      <option name="closed" value="true" />
+      <created>1732182208111</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1732182208111</updated>
+    </task>
+    <task id="LOCAL-00050" summary="exception!">
+      <option name="closed" value="true" />
+      <created>1732278843985</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1732278843985</updated>
+    </task>
+    <task id="LOCAL-00051" summary="add more enum">
+      <option name="closed" value="true" />
+      <created>1732328022658</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1732328022658</updated>
+    </task>
+    <task id="LOCAL-00052" summary="add more and more enum">
+      <option name="closed" value="true" />
+      <created>1732439257455</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1732439257455</updated>
+    </task>
+    <task id="LOCAL-00053" summary="generics">
+      <option name="closed" value="true" />
+      <created>1732528196889</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1732528196889</updated>
+    </task>
+    <task id="LOCAL-00054" summary="generics2">
+      <option name="closed" value="true" />
+      <created>1732615265159</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1732615265159</updated>
+    </task>
+    <task id="LOCAL-00055" summary="generics3">
+      <option name="closed" value="true" />
+      <created>1732704514640</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1732704514640</updated>
+    </task>
+    <task id="LOCAL-00056" summary="generics complete">
+      <option name="closed" value="true" />
+      <created>1732956470151</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1732956470151</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Streams and lambda">
+      <option name="closed" value="true" />
+      <created>1732956648623</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1732956648623</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Streams and lambda2!">
+      <option name="closed" value="true" />
+      <created>1733133098543</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1733133098543</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Streams and lambda2!">
+      <option name="closed" value="true" />
+      <created>1733529341421</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1733529341421</updated>
+    </task>
+    <task id="LOCAL-00060" summary="map4">
+      <option name="closed" value="true" />
+      <created>1733828941155</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1733828941155</updated>
+    </task>
+    <task id="LOCAL-00061" summary="map4">
+      <option name="closed" value="true" />
+      <created>1733912648304</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1733912648304</updated>
+    </task>
+    <task id="LOCAL-00062" summary="return to java1">
+      <option name="closed" value="true" />
+      <created>1734350520786</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1734350520786</updated>
+    </task>
+    <task id="LOCAL-00063" summary="return to java2">
+      <option name="closed" value="true" />
+      <created>1734436906338</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1734436906339</updated>
+    </task>
+    <task id="LOCAL-00064" summary="return to java3">
+      <option name="closed" value="true" />
+      <created>1734524591532</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1734524591533</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Supplier now">
+      <option name="closed" value="true" />
+      <created>1734785856773</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1734785856773</updated>
+    </task>
+    <task id="LOCAL-00066" summary="i learned them all!">
+      <option name="closed" value="true" />
+      <created>1735123139113</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1735123139113</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hero?" />
+    <MESSAGE value="this gonna be hard" />
+    <MESSAGE value="what if there is 100 hero?" />
+    <MESSAGE value="interface" />
+    <MESSAGE value="interface 2" />
+    <MESSAGE value="interface 3" />
+    <MESSAGE value="anonymous!" />
+    <MESSAGE value="ez" />
+    <MESSAGE value="enum" />
+    <MESSAGE value="enum!" />
+    <MESSAGE value="exception!" />
+    <MESSAGE value="add more enum" />
+    <MESSAGE value="add more and more enum" />
+    <MESSAGE value="generics" />
+    <MESSAGE value="generics2" />
+    <MESSAGE value="generics3" />
+    <MESSAGE value="generics complete" />
+    <MESSAGE value="Streams and lambda" />
+    <MESSAGE value="Streams and lambda2!" />
+    <MESSAGE value="map4" />
+    <MESSAGE value="return to java1" />
+    <MESSAGE value="return to java2" />
+    <MESSAGE value="return to java3" />
+    <MESSAGE value="Supplier now" />
+    <MESSAGE value="i learned them all!" />
+    <option name="LAST_COMMIT_MESSAGE" value="i learned them all!" />
+  </component>
+</project>
