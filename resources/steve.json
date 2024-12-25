@@ -1,0 +1,16 @@
+{
+  "playerName" : "steve",
+  "location" : {
+    "x" : 45,
+    "y" : 34,
+    "z" : 11
+  },
+  "inventry" : [
+    "stone",
+    "cobble",
+    "sword",
+    {
+      "Pickaxe" : 2323
+    }
+  ]
+}
